@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/style2.css" rel="stylesheet">
+  <script>
+    function validateform() {
+        let val1 = document.forms["registerform"]["pwd1"].value;
+        let val2 = document.forms["registerform"]["pwd2"].value;
+        if (val1 != val2) {
+            alert("Please enter same password for both fields");
+            return false; 
+        }
+        return true;
+    }
+</script>
+<style>
+    body {
+      background-image: url('try.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+</head>
+<body class="vh-100 bg-image" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" style="font-size: x-small;" href="#myPage">Welcome to San Francisco's new hit art gallery, CHICKENFRIEDRICE</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="store.html">GALLERY</a></li>
+              <li><a href="Register.html">REGISTER</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Contact.html">CONTACT US</a></li>
+                  <li><a href="About.html">ABOUT US</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section >
+        <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+            <div class="container h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                  <div class="card" style="border-radius: 15px;">
+                    <div class="card-body p-5">
+                      <h2 class="text-uppercase text-center mb-5" >Create an account</h2>
+        
+                    <form>
+      
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example1cg">Your Name</label>
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example3cg">Your Email</label>
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example4cg">Password</label>
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example4cdg">Repeat your password</label>
+                      </div>
+      
+                      <div class="form-check d-flex justify-content-center mb-5">
+                        <input
+                          class="form-check-input me-2"
+                          type="checkbox"
+                          value=""
+                          id="form2Example3cg"
+                        />
+                        <label class="form-check-label" for="form2Example3g">
+                          I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                        </label>
+                      </div>
+      
+                      <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                      </div>
+      
+                      <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!" class="fw-bold text-body"><u>Login here</u></a></p>
+                     
+                    </form>
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
