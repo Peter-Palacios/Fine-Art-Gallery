@@ -5,7 +5,7 @@ Art Gallery Project made to showcase front-end development.
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, .NET Core, Boot
+**Tech used:** HTML, CSS, JavaScript, .NET Core, Bootstrap
 
 Website made using a combination of bootstrap3, JavaScript, HTML5, CSS, Ajax, Jquery. Home page taken from designed template. links to other pages made from scratch. Website
 showcases art to be purchased and sales prices, along with a contact form and About page. 
