@@ -1,7 +1,7 @@
 # Fine Art Gallery
 Art Gallery Project made to showcase front-end development.
 
-![alt tag](https://github.com/Peter-Palacios/Strata-site/blob/master/images/ProjectGifs/Risotto.gif)
+![alt tag](https://github.com/Peter-Palacios/Strata-site/blob/master/images/ProjectGifs/ArtGallery.gif)
 
 ## How It's Made:
 
